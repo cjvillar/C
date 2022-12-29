@@ -2,5 +2,8 @@
 Explore lessons in C. 
 
 compile using:
+gcc <program.c>
 
-gcc -o out_file_name in_file_name.c
+or
+
+gcc -o <out_file_name> <in_file_name.c>
