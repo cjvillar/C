@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Here we will use define name value
+/* Here we will use define (symbolic constants) name value
 so we don't have random numbers in our code that will confuse future 
 you.
 
