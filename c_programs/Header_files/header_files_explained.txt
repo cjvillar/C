@@ -1,0 +1,69 @@
+example header file might look like this:
+
+> rad2volume.h //file name
+
+---------
+#ifndef RAD2VOLUME_H // include guard, if no constant RAD2VOLUME_H define it! 
+#define RAD2VOLUME_H // if it has been defined skip it!
+
+#define MY_PI 3.141
+double radius2Volume(double r);
+
+#endif
+------------------
+
+then we can include this header file in a script
+> rad2volume.C
+
+----------------------
+#include<math.h>
+#include "rad2volume.h" // we use "" to look in dev path not system path
+
+double cuber(double x){
+    return(pow)(x,3.0));
+}
+
+double radius2Volume(double rad){
+    return((4.0/3.0)*MY_PI*cuber(rad));
+}
+________________
+
+Our C library for radius2Volume is the header file and the C code that goes with it
+Now we need to define a function that uses this Library:
+
+> main.c
+
+_______________
+
+#include <stdio.h>
+#include <rad2volume.h>
+
+int main(void){
+    double radius = 3.0, volume;
+    volume = radius2Volume(radius);
+    printf("Pi is approx as %5.3f.\n", MY_PI);
+    printf("The volume of the sphere is %8.4lf.\n", volume");
+    return 0;
+}
+
+_______________
+
+to compile:
+gcc main.c rad2volume.c -o main
+
+
+
+A header file is  denoted as .h
+they hold the declarations of functions but the definitions exist in seperate source code or be pre compiled
+the stdio.h is pre compiled and pointed to the glib c library included in the C program.
+
+if you want to make your code easier to manage, you can use header files 
+
+
+<> These are diamond braces, they look in the system path
+#include <stdio.h>
+
+
+declare a function:
+
+void my_function(void);
