@@ -7,6 +7,7 @@ Sources:
 - CS50x
 - Practical C Programming (3rd edition) - Steve O
 - https://towardsdatascience.com/an-introduction-to-debugging-in-c-and-lldb-part-i-e3c51991f83a
+- https://lldb.llvm.org/use/tutorial.html
 
 
 ### compile using:
