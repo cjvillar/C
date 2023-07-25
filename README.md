@@ -1,18 +1,22 @@
+![C logo]("c_plain_logo.png")
+
 # C
-Explore lessons in C. 
+Source: Explore lessons in C 
 
 compile using:
+```C
 gcc <program.c>
-
+``
 or
-
+```C
 gcc -o <out_file_name> <in_file_name.c>
-
-or for verbose mode:
-
+```
+For verbose mode:
+```C
 gcc -o -v <out_file_name> <in_file_name.c>
-
-to compile but not link:
+```
+To compile but not link:
+```C
 gcc -c <in_file_name.c>
-
-create a .o output file that needs to be linked  
+```
+Create a .o output file that needs to be linked  
