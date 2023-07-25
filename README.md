@@ -1,6 +1,7 @@
-![C logo]("c_plain_logo.png")
 
-# C
+<img src="c_plain_logo.png" alt="C logo" width="200" height="200">
+
+# 
 Source: Explore lessons in C 
 
 compile using:
