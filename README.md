@@ -1,8 +1,11 @@
 
 <img src="c_plain_logo.png" alt="C logo" width="200" height="200">
 
-# 
-Source: Explore lessons in C 
+#  Explore lessons in C  
+Sources: 
+- The C Programming Language - Brian K
+- CS50x
+- Practical C Programming (3rd edition) - Steve O
 
 compile using:
 ```C
