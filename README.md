@@ -1,7 +1,17 @@
 
 <img src="c_plain_logo.png" alt="C logo" width="200" height="200">
 
-#  Explore lessons in C  
+
+## C NoteBook:
+
+```bash
+pip install jupyter_client
+python install_c_kernel
+install_c_kernel --user
+```
+
+
+### Explore lessons in C  
 Sources: 
 - The C Programming Language - Brian K
 - CS50x
